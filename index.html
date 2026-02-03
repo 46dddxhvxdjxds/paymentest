@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Pipe Traders - Complete Pipe & Plumbing Solutions</title>
+    <meta name="description"
+        content="Modern Pipe Traders in Sasaram, Bihar - Your one-stop shop for GI pipes, UPVC pipes, water tanks, sanitary items, and pumps">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">Modern <span>Pipe Traders</span></a>
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger">☰</div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="tel:7261030361" class="btn btn-primary" style="padding: 8px 15px; color: white;">Call
+                            Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Complete Pipe & Plumbing Solutions</h1>
+            <p>High-quality pipes, fittings, sanitary ware, and water solutions at the best market prices in Sasaram</p>
+            <div class="hero-btns">
+                <a href="tel:7261030361" class="btn btn-primary">Call to Order</a>
+                <a href="products.html" class="btn btn-outline">View Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Essential Info / Highlights -->
+    <section class="features">
+        <div class="container">
+            <div class="products-grid">
+                <div class="feature-pill">
+                    <div class="pill-icon">🏆</div>
+                    <div class="pill-text">
+                        <h3>Trusted Quality</h3>
+                        <p>We supply only the best brands of pipes and sanitary items.</p>
+                    </div>
+                </div>
+                <div class="feature-pill">
+                    <div class="pill-icon">💰</div>
+                    <div class="pill-text">
+                        <h3>Best Prices</h3>
+                        <p>Wholesale rates available for bulk orders and construction.</p>
+                    </div>
+                </div>
+                <div class="feature-pill">
+                    <div class="pill-icon">📍</div>
+                    <div class="pill-text">
+                        <h3>Local Service</h3>
+                        <p>Serving Hetimpur, Sasaram and surrounding areas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Owner Banner -->
+    <section class="owner-section" style="background-color: #f0f0f0;">
+        <div class="container">
+            <div class="owner-card">
+                <div class="owner-content-left">
+                    <h3>Welcome to Modern Pipe Traders</h3>
+                    <p>We are dedicated to providing you with durable and reliable plumbing solutions for your home and
+                        business.</p>
+                    <p class="mt-2"><strong>We have all types of solutions:</strong></p>
+                    <ul class="welcome-list">
+                        <li>Gi Pipes & Fittings</li>
+                        <li>Column Pipes & Fittings</li>
+                        <li>UPVC Pipes & Fittings</li>
+                        <li>CPVC Pipes & Fittings</li>
+                        <li>SWR Pipes and Fittings</li>
+                        <li>Casing Pipe & Fittings</li>
+                        <li>Sanitary Items</li>
+                        <li>Water Tanks</li>
+                        <li>Handpumps</li>
+                        <li>Pump & Motors</li>
+                        <li>ETC.</li>
+                    </ul>
+                </div>
+                <div class="owner-profile-right">
+                    <div class="owner-image">
+                        <img src="images/owner.jpg" alt="Eqbal Arif - Owner" loading="lazy">
+                    </div>
+                    <div class="owner-name">Eqbal Arif</div>
+                    <p class="role">Owner</p>
+                    <div style="margin-top: 15px;">
+                        <a href="tel:7261030361" class="btn btn-primary">Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Slider Section -->
+    <section class="slider-section">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 20px; color: var(--secondary-color);">Our Gallery</h2>
+            <div class="slider-container">
+                <div class="slider-wrapper">
+                    <div class="slide active"><img src="images/slider1.jpg" alt="Gallery 1"
+                            onclick="openLightbox(this)"></div>
+                    <div class="slide"><img src="images/slider2.jpg" alt="Gallery 2" onclick="openLightbox(this)"></div>
+                    <div class="slide"><img src="images/slider3.jpg" alt="Gallery 3" onclick="openLightbox(this)"></div>
+                    <div class="slide"><img src="images/slider4.jpg" alt="Gallery 4" onclick="openLightbox(this)"></div>
+                    <div class="slide"><img src="images/slider5.jpg" alt="Gallery 5" onclick="openLightbox(this)"></div>
+                    <div class="slide"><img src="images/slider6.jpg" alt="Gallery 6" onclick="openLightbox(this)"></div>
+                    <div class="slide"><img src="images/slider7.jpg" alt="Gallery 7" onclick="openLightbox(this)"></div>
+                    <div class="slide"><img src="images/slider8.jpg" alt="Gallery 8" onclick="openLightbox(this)"></div>
+                </div>
+                <button class="slider-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="slider-btn next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- Contact Section (Moved from Contact Page) -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-container">
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2 style="margin-bottom: 30px; color: var(--secondary-color);">Get In Touch</h2>
+
+                    <div class="info-item">
+                        <div class="icon">📞</div>
+                        <div class="details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:7261030361">+91 72610 30361</a></p>
+                            <p style="font-size: 0.9rem; color: #888;">(Click to Call)</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon">✉️</div>
+                        <div class="details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:modernpipetraders@gmail.com">modernpipetraders@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon">📍</div>
+                        <div class="details">
+                            <h4>Location</h4>
+                            <p>Grand Trunk Rd, near Kushwaha Sabha Bhawan,</p>
+                            <p>Hetimpur, Sasaram, Bihar 821115</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon">👤</div>
+                        <div class="details">
+                            <h4>Owner</h4>
+                            <p>Eqbal Arif</p>
+                        </div>
+                    </div>
+
+                    <a href="tel:7261030361" class="btn btn-primary" style="margin-top: 20px;">Call Store Now</a>
+                </div>
+
+                <!-- Map (Using Google Maps Embed) -->
+                <div class="map-container">
+                    <h2 style="margin-bottom: 30px; color: var(--secondary-color);">Find Us Here</h2>
+                    <iframe
+                        src="https://maps.google.com/maps?q=Modern+Pipe+Traders+Sasaram+Rohtas&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        allowfullscreen="" loading="lazy" style="background-color: #eee;">
+                        <p>Map loading...</p>
+                    </iframe>
+                    <div style="margin-top: 10px; text-align: right;">
+                        <a href="https://maps.app.goo.gl/vXvSzsCJakYZnvnK6" target="_blank"
+                            style="color: var(--primary-color); font-weight: bold;">View on Google Maps App &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col" style="flex: 2;">
+                    <h3>Modern Pipe Traders</h3>
+                    <p>Complete Pipe & Plumbing Solutions.</p>
+                    <p style="margin-top: 10px;">Email: <a href="mailto:modernpipetraders@gmail.com"
+                            style="color: #bbb;">modernpipetraders@gmail.com</a></p>
+                </div>
+                <div class="footer-col" style="flex: 1;">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Modern Pipe Traders. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
